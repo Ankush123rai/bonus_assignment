@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: gray;
+  padding: 1rem;
+  position: absolute;
+  top: 20%;
+  left: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 500px;
+  border-radius: 1rem;
+  height: 400px;
+}
+.container input {
+  padding: 0.8rem;
+  margin: 0.3rem 0;
+  border-radius: 0.5rem;
+}
+
+.container form button {
+  background-color: tomato;
+  padding: 0.4rem 1rem;
+  border: none;
+  color: #fff;
+  border-radius: 0.5rem;
+}
